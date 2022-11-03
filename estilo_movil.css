@@ -178,6 +178,16 @@
             color: white;
             font-weight: 700;
         }
+           .Seccion1 div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            column-gap: 10px;
+            border: 1px red solid;
+        }
         
         .Seccion1 article a {
             text-decoration: none;
@@ -190,6 +200,8 @@
             color: white;
         
             font-weight: 300;
+           
+           margin-right: 0px;
             
         }
         
